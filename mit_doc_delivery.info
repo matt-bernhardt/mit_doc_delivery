@@ -1,0 +1,4 @@
+name = MIT Document Delivery
+description = This is a child theme of omega_kickstart for use by the MIT Libraries' document delivery application (libraries.mit.edu/app/doc-delivery)
+core = 7.x
+base theme = omega_kickstart
