@@ -1,0 +1,225 @@
+body {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5rem;
+	color: #333;
+	background: #fff;
+	height: 100%;
+}
+
+header#section-header {
+	margin: 15px 0;
+}
+/* Main menu */
+div#block-menu-secondary-navigation {
+	margin-top: 1rem;
+}
+div#block-menu-secondary-navigation ul.menu {
+	display: block;
+	display: table;
+	width: 100%;
+}
+div#block-menu-secondary-navigation ul.menu li {
+	list-style-type: none;
+	list-style-image: none;
+	display: inline-block;
+	display: table-cell;
+}
+div#block-menu-secondary-navigation ul.menu li a {
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+}
+div#block-menu-secondary-navigation ul.menu li.first a {
+	border-left: none;
+}
+div#block-menu-secondary-navigation ul.menu li.last a {
+	border-right: none;
+}
+
+/* Site title */
+div#zone-header {
+	background-color: #333;
+	color: #fff;
+	padding: 18px 0 15px 0px;
+	margin-top: 10px;
+}
+div#zone-header div.content {
+	font-size: 28px;
+	font-weight: bold;
+	line-height: 28px;
+	margin-bottom: 6px;
+}
+div#zone-header div.content a {
+	text-decoration: none;
+	color: #fff;
+}
+div#zone-header div.content a:focus,
+div#zone-header div.content a:hover {
+	text-decoration: none;
+}
+/* Preface / Warning area */
+div#zone-preface {
+	background-color: #fc3;
+	padding: 10px 0 10px;
+	margin-bottom: 10px;
+} 
+
+/* Sidebar 
+*/
+aside.region-sidebar-second {
+        background-color: #ede8e2;
+}
+aside.region-sidebar-second div.region-inner {
+        padding: 10px;
+}
+aside.region-sidebar-second div.block {
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 10px;
+}
+
+/* Toolbox styles (My account, Ask us / Tell us) */
+.toolbox {
+    float: right;
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+}
+.toolbox .icon-arrow-right {
+    display: inline-block;
+    height: 0.75rem;
+    margin-top: 0;
+    width: 0.75rem;
+}
+.toolbox > a {
+    display: inline-block;
+    font-weight: 700;
+    margin-right: 1rem;
+    margin-top: 0;
+}
+.toolbox > a:after {
+    background: none repeat scroll 0 0 #ccc;
+    content: "";
+    display: inline-block;
+    height: 2rem;
+    margin-bottom: -0.75rem;
+    margin-left: 1rem;
+    margin-top: 0;
+    width: 1px;
+}
+.toolbox .button-ask-tell {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 480px) {
+	.toolbox {
+	    margin-top: 0;
+	}
+	.toolbox .icon-arrow-right {
+	    display: none;
+	}
+	.toolbox > a {
+	    float: right;
+	    margin: 0 0 0.5rem;
+	}
+	.toolbox > a:after {
+	    content: none;
+	}
+	.toolbox .button-ask-tell {
+	    clear: right;
+	    float: right;
+	}
+}
+
+/* Checkout forms */
+.page-checkout legend {
+	border-bottom: 1px solid #333;
+	width: 100%;
+}
+.page-checkout legend span.fieldset-legend {
+	font-size: 1.25rem;
+	font-weight: bold;
+	color: #333;
+}
+.page-checkout #commerce-checkout-form-checkout fieldset label, 
+.page-checkout #commerce-checkout-form-review fieldset label {
+	float: none !important;
+}
+div.view-commerce-cart-summary table {
+	width: 100%;
+}
+
+/* Footer Zone */
+div#zone-footer {
+	background: #333;
+	color: #ccc;
+	height: 92px;
+}
+#logoFooter {
+	width: 111px;
+	height: 47px;
+	position: absolute;
+	top: 16px;
+	left: 18px;
+	text-indent: -9999px;
+	background: transparent url('/app/doc-delivery/sites/all/themes/mit_doc_delivery/images/logo-black.png') no-repeat;
+}
+/* Footer2 Zone */
+div#zone-footer2 {
+	background: #f2f0f1;
+	color: #333;
+	height:93px;
+	margin-bottom: 50px;
+}
+#mitLogo {
+	display: block;
+	float: left;
+	width: 170px;
+	height: 39px;
+	position: relative;
+	margin: 25px 0 0 20px;
+	text-indent: -9999px;
+	background: transparent url('/app/doc-delivery/sites/all/themes/mit_doc_delivery/images/logo-mit.png') no-repeat;
+}
+
+/* Responsiveness styles from Bootstrap */
+.visible-phone {
+    display: none !important;
+}
+.visible-tablet {
+    display: none !important;
+}
+.hidden-desktop {
+    display: none !important;
+}
+.visible-desktop {
+    display: inherit !important;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+.hidden-desktop {
+    display: inherit !important;
+}
+.visible-desktop {
+    display: none !important;
+}
+.visible-tablet {
+    display: inherit !important;
+}
+.hidden-tablet {
+    display: none !important;
+}
+}
+@media (max-width: 767px) {
+.hidden-desktop {
+    display: inherit !important;
+}
+.visible-desktop {
+    display: none !important;
+}
+.visible-phone {
+    display: inherit !important;
+}
+.hidden-phone {
+    display: none !important;
+}
+}
