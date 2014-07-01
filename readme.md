@@ -1,2 +1,4 @@
-This is a simple child theme of for Drupal Commerce. It extends Commerce's supplied Omega Kickstart theme in ways needed by the MIT Libraries.
+mit_doc_delivery
+================
 
+A Drupal Commerce theme extending the default omega_kickstart
