@@ -155,11 +155,6 @@ div.view-commerce-cart-summary table {
 	font-weight: bold;
 	margin-bottom: 16px;
 }
-.commerce-extra-panes-checkout-form {
-	padding: 0.5rem;
-	background-color: #ede8e2;
-	margin-bottom: 1rem;
-}
 
 /* Footer Zone */
 div#zone-footer {
@@ -192,6 +187,11 @@ div#zone-footer2 {
 	margin: 25px 0 0 20px;
 	text-indent: -9999px;
 	background: transparent url('/app/doc-delivery/sites/all/themes/mit_doc_delivery/images/logo-mit.png') no-repeat;
+}
+
+/* Commerce backend styles */
+table[data-view-name="commerce_backoffice_orders"] {
+	width: 100%
 }
 
 /* Responsiveness styles from Bootstrap */
