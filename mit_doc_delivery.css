@@ -7,6 +7,17 @@ body {
 	height: 100%;
 }
 
+/* Simple styles */
+.suppressed {
+	display: none;
+}
+
+/* Simple overrides */
+ul.menu li {
+	margin-left: 1em;
+}
+
+/* Sections */
 header#section-header {
 	margin: 15px 0;
 }
@@ -141,6 +152,14 @@ aside.region-sidebar-second div.block {
 	font-weight: bold;
 	color: #333;
 }
+.page-checkout .required-empty {
+	border: 2px solid #f00;
+}
+.page-checkout #required-message {
+	border: 1px solid #f00;
+	background: #fcc;
+	padding: 10px;
+}
 .page-checkout #commerce-checkout-form-checkout fieldset label, 
 .page-checkout #commerce-checkout-form-review fieldset label,
 #block-system-main .node-product-type form label {
@@ -154,6 +173,37 @@ div.view-commerce-cart-summary table {
 	font-size: 20px;
 	font-weight: bold;
 	margin-bottom: 16px;
+}
+
+/* Citation Details - cribbed from Omega Kickstart theme */
+fieldset.group-staff-citation {
+	clear: both;
+}
+section#block-views-citation-details-block-1 {
+	border: 1px solid #bebfb9;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+}
+section#block-views-citation-details-block-1 h2.block-title {
+	background-color: #e1e2dc;
+	padding: 3px 10px;
+	border-bottom: 1px solid #bebfb9;
+	margin-bottom: 10px;
+}
+section#block-views-citation-details-block-1 div.views-row > div {
+	padding: 0 10px;
+}
+section#block-views-citation-details-block-1 div.views-row > div.long {
+	margin-bottom: 10px;
+}
+section#block-views-citation-details-block-1 .value {
+	font-weight: bold;
+}
+/* Postscript Zone - Staff controls */
+div#zone-postscript {
+	background-color: #a8d8fc;
+	margin: 1rem auto;
+	padding: 1rem 0;
 }
 
 /* Footer Zone */
