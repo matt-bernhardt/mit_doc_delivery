@@ -1,3 +1,11 @@
+(function ($) {
+	// Undo / override the "read more" links on product bodies
+	Drupal.behaviors.bodyReadMore = {
+
+	}
+
+})(jQuery);
+
 init = function() {
 	jQuery("<div>There are blank required fields dealing with MIT Affiliation and payment methods. Please fill out these fields in order to submit your request.</div>").attr("id","required-message").insertAfter("#edit-buttons");
 	checkFields();
@@ -45,8 +53,6 @@ isHidden = function(el) {
 }
 
 jQuery(document).ready(function() {
-	var foo = 0;
-
 	init();
 
 	jQuery(document).ajaxComplete(function() {
