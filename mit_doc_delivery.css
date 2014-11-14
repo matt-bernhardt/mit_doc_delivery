@@ -88,6 +88,9 @@ aside.region-sidebar-second div.block {
         border-bottom: 1px solid #ccc;
         margin-bottom: 10px;
 }
+aside.region-sidebar-second div.block div.content li {
+	margin-left: 1em;
+}
 
 /* Toolbox styles (My account, Ask us / Tell us) */
 .toolbox {
