@@ -1,7 +1,6 @@
 (function ($) {
 	// Undo / override the "read more" links on product bodies
 	Drupal.behaviors.bodyReadMore = {
-
 	}
 
 })(jQuery);
@@ -41,9 +40,11 @@ checkFields = function() {
 	if(valid) {
 		jQuery("#required-message").addClass("suppressed");
 		jQuery("#commerce-checkout-form-checkout #edit-buttons").removeClass("suppressed");
+		jQuery("#commerce-checkout-form-shipping #edit-buttons").removeClass("suppressed");
 	} else {
 		jQuery("#required-message").removeClass("suppressed");
 		jQuery("#commerce-checkout-form-checkout #edit-buttons").addClass("suppressed");
+		jQuery("#commerce-checkout-form-shipping #edit-buttons").addClass("suppressed");
 	}
 }
 
